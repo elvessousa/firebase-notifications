@@ -1,5 +1,3 @@
-// app/api/save-notification-token/route.ts
-
 import { NextRequest, NextResponse } from "next/server";
 import { initializeApp, cert, getApps } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
